@@ -9,7 +9,6 @@ from uuid import UUID, uuid4
 from fastapi_sessions.backends.implementations import InMemoryBackend
 from fastapi_sessions.session_verifier import SessionVerifier
 from fastapi_sessions.frontends.implementations import SessionCookie, CookieParameters
-from HCIBenchAPI import HCIBenchAPI
 
 class SessionData(BaseModel):
     HCIUser: str
